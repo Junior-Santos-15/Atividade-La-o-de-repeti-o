@@ -1,30 +1,37 @@
-Algoritmo "5 - NÚMERO INICIAL A UM NÚMERO FINAL"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "5 - NÃšMERO INICIAL A UM NÃšMERO FINAL"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/04/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    n1, n2: inteiro
    i: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-  escreva("Digite o valor inicial: ")
+ escreva("Digite o valor inicial: ")
   leia(n1)
   
   escreva("Digite o valor final: ")
   leia(n2)
+  
+  limpatela
 
-  para i de 1 ate 100 faca
+  para i de n1 ate n2 faca
   escreval("Valores" ,i)
   fimpara
   
-  se(n1>n2) entao
-  i <- n2 ate n1
-  fimse
+  para i de n2 ate n1 faca
+  escreval("Valores" ,i)
+  fimpara
+  
+
+  
+  
+
 
   
   escreval("Valor inicial" ,n1)
