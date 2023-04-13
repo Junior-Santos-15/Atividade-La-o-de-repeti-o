@@ -20,19 +20,14 @@ Inicio
   
   limpatela
 
+  para i de n1 ate n2 passo -1 faca
+  escreval("Valores" ,i)
+  fimpara
+  
   para i de n1 ate n2 faca
   escreval("Valores" ,i)
   fimpara
   
-  para i de n2 ate n1 faca
-  escreval("Valores" ,i)
-  fimpara
-  
-
-  
-  
-
-
   
   escreval("Valor inicial" ,n1)
   escreval("Valor final" ,n2)
